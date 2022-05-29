@@ -1,3 +1,6 @@
+* {
+    margin: 0 auto;
+}
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     background-image: url(../images/bg-header-mobile.png);
@@ -29,7 +32,7 @@ img {
 }
 
 .button-green {
-    padding: 15px 85px;
+    padding: 15px 80px;
     margin: 10px;
     border-radius: 25px;
     border: none;
@@ -41,7 +44,7 @@ img {
 }
 
 .button-blue {
-    padding: 15px 85px;
+    padding: 15px 80px;
     margin: 10px;
     border-radius: 25px;
     border: none;
@@ -52,7 +55,7 @@ img {
     box-shadow: 1px 5px hsl(233, 61%, 57%);
 }
 
-.section1, .section2, .section3 {
+.section1, .section2, .section3, .section4 {
     text-align: center;
     margin: 130px 17px 50px 17px;
 }
@@ -69,4 +72,39 @@ img {
 .icon {
     margin-top: 80px;
     width: 60px;
+}
+
+.logo {
+    width: 130px;
+    padding: 20px;
+}
+
+footer {
+    background-color: hsl(198, 30%, 92%);
+   padding: 20px 60px;
+}
+
+.top-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.links {
+    margin: 15px;
+}
+
+.logo-footer {
+    width: 50px;
+}
+
+.contacto {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.logo-contacto {
+    width: 20px;
 }
