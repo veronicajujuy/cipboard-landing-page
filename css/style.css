@@ -108,3 +108,74 @@ footer {
 .logo-contacto {
     width: 20px;
 }
+
+@media (min-width:385px) {
+    body {
+        background-image: url(../images/bg-header-desktop.png);
+        background-repeat: repeat-x;
+    }
+    .subtitle {
+        margin: 20px 20%;
+    }
+    .snippets {
+        display: flex;
+        align-items: center;
+    }
+    .snippets-items {
+        justify-self: flex-start;
+        text-align: initial;
+        margin-left: 0px;
+    }
+    .snippets-items > .subtitle {
+        margin: 20px 0;
+    }
+    .snippets >div > img {
+        position: relative;
+        right: 25%;
+        margin: 80px 0;
+    }
+
+    .section2 > img {
+        width: 50%;
+        margin-top: 50px;
+    }
+    .workflow {
+        display: flex;
+        align-items: center;
+    }
+    .logos {
+        display: flex;
+        padding: 0 20px;
+    }
+
+    .logo {
+        width: 10%;
+        height: 7%;
+    }
+
+    footer {
+        padding: 0;
+    }
+    .foot {
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+        padding: 50px 0;
+    }
+
+    .logo-f {
+        width: 10%;
+    }
+    .top-links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+        justify-content: flex-start;
+    }
+    .contacto {
+        width: 30%;
+        align-items: center;
+        margin-bottom: 0;
+    }
+}
