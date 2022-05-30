@@ -43,6 +43,14 @@ img {
     box-shadow: 1px 5px hsl(171, 67%, 37%);
 }
 
+.button-green:hover {
+    background-color: hsl(171, 78%, 67%);
+}
+
+.button-blue:hover{
+    background-color: hsl(233, 86%, 78%);
+}
+
 .button-blue {
     padding: 15px 80px;
     margin: 10px;
@@ -94,6 +102,12 @@ footer {
 
 .links {
     margin: 15px;
+    text-decoration: none;
+    color:#4C545C;
+}
+
+.links:hover{
+    color:hsl(171, 67%, 37%);
 }
 
 .logo-footer {
@@ -102,11 +116,15 @@ footer {
 
 .contacto {
     display: flex;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
-.logo-contacto {
-    width: 20px;
+.logo-contacto-ref {
+    color:#4C545C;
+}
+
+.logo-contacto-ref:hover{
+    color:hsl(171, 67%, 37%);
 }
 
 @media (min-width:385px) {
@@ -161,6 +179,10 @@ footer {
         align-items: center;
         margin: 50px 0;
         padding: 50px 0;
+    }
+
+    .contacto {
+        margin: 0;
     }
 
     .logo-f {
