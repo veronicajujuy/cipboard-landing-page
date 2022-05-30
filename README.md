@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/veronicajujuy/cipboard-landing-page](https://github.com/veronicajujuy/cipboard-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://cipboard-landing-page-ten.vercel.app/](https://cipboard-landing-page-ten.vercel.app/)
 
 ## My process
 
